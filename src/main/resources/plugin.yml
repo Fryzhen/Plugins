@@ -1,0 +1,14 @@
+name: first
+version: '${project.version}'
+main: fr.fryzhen.plugin.Plugin
+api-version: 1.19
+authors: [ Fryzhen ]
+description: First plugin
+website: None
+commands:
+  test:
+    description: Ceci est une commande de test
+    permission: test.use
+  alert:
+    description: Ceci est un brodcast
+    permission: bc.use
